@@ -7,7 +7,7 @@
 [![style: very good analysis][very_good_analysis_badge]][very_good_analysis_link]
 [![License: MIT][license_badge]][license_link]
 
-A Photo Booth built with [Flutter][flutter_link] and [Firebase][firebase_link] for [Google I/O 2021][google_io_link].
+A Photo Booth built with [Flutter][flutter_link] and [Firebase][firebase_link] for Android 12 Meetup Brasil.
 
 [Try it now][photo_booth_link] and [learn about how it's made][blog_link].
 
@@ -136,7 +136,6 @@ Widget build(BuildContext context) {
 [firebase_link]: https://firebase.google.com/
 [flutter_link]: https://flutter.dev
 [flutter_localizations_link]: https://api.flutter.dev/flutter/flutter_localizations/flutter_localizations-library.html
-[google_io_link]: https://events.google.com/io/
 [blog_link]: https://medium.com/flutter/how-its-made-i-o-photo-booth-3b8355d35883
 [internationalization_link]: https://flutter.dev/docs/development/accessibility-and-localization/internationalization
 [license_badge]: https://img.shields.io/badge/license-MIT-blue.svg
