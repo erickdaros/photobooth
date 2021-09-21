@@ -1,4 +1,4 @@
-# I/O Photo Booth
+# Android 12 Photo Booth
 
 [![Photo Booth Header][logo]][photo_booth_link]
 

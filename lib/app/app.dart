@@ -43,14 +43,15 @@ class _App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Cabine de Fotos: Google I/O Extended Brasil',
+      title: 'Cabine de Fotos: Android 12 Meetup Brasil',
       theme: theme,
       localizationsDelegates: [
         AppLocalizations.delegate,
         GlobalMaterialLocalizations.delegate,
       ],
       // ignore: lines_longer_than_80_chars
-      locale: AppLocalizations.supportedLocales.firstWhere((locale) => locale.languageCode.toLowerCase().contains('pt')),
+      locale: AppLocalizations.supportedLocales.firstWhere(
+          (locale) => locale.languageCode.toLowerCase().contains('pt')),
       supportedLocales: AppLocalizations.supportedLocales,
       home: const LandingPage(),
     );

@@ -10,6 +10,15 @@ class LandingTakePhotoButton extends StatelessWidget {
   Widget build(BuildContext context) {
     final l10n = context.l10n;
     return ElevatedButton(
+      style: ButtonStyle(
+        backgroundColor: MaterialStateProperty.resolveWith<Color>(
+          (Set<MaterialState> states) {
+            if (states.contains(MaterialState.pressed))
+              return Theme.of(context).colorScheme.primary.withOpacity(0.5);
+            return Colors.green; // Use the component's default.
+          },
+        ),
+      ),
       onPressed: () {
         trackEvent(
           category: 'button',

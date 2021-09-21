@@ -36,9 +36,9 @@ export default `
         <img src="{{{shareImageUrl}}}">
       </div>
       <div class="text">
-        <h1>Foto tirada com I/O Photo Booth</h1>
+        <h1>Foto tirada com Android 12 Photo Booth</h1>
         <h2> Junte-se a diversão! Tire uma foto com seu mascote do Google favorito 
-          na cabine de fotos I/O Photo Booth.</h2>
+          na cabine de fotos Android 12 Photo Booth.</h2>
         <a class="share-btn" href="/">Ir para cabine</a>
       </div>
     </main>
